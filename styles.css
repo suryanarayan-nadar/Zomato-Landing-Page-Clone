@@ -5,7 +5,7 @@
     font-family: 'poppins', sans-serif;
 }
 
-.hero_section{
+.hero__section{
     background: url(./images/heroSectionBackground.png);
     background-size: cover;
     background-position: center;
@@ -50,7 +50,7 @@
     .link{
         display: none;
     }
-    .hero_section{
+    .hero__section{
         min-height: 80vh;
     }
 }
