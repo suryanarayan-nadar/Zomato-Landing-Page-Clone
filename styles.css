@@ -17,8 +17,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 65px;
-    padding: 16px 48px;
+    height: 60px;
+    padding: 17px 200px;
+    padding-top: 50px;
+    font-size: 1.1rem;
+    font-weight: 280;
 }
 
 .navbar a{
@@ -28,7 +31,9 @@
 
 .navbar__menu_container{
     display: flex;
-    gap: 18px;
+    gap: 30px;
+    font-size: 1.1rem;
+    font-weight: 280;
     /* padding-right: 18px; */
 }
 
@@ -55,15 +60,15 @@
 }
 
 .hero__section_logo{
-    width: 200px;
-    height: 40px;
+    width: 300px;
+    height: 60px;
     /* height: auto; */
 }
 
 .hero__section_title{
     text-align: center;
     font-size: 30px;
-    font-weight: 380;
+    font-weight: 400;
 }
 
 .hero__section_input_container{
@@ -173,6 +178,7 @@
 
 .we__offer_content p{
     font-size: 12.5px;
+    color: gray;
 }
 
 .collections h1{
@@ -515,3 +521,4 @@
             grid-template-columns: repeat(1, 1fr);
     }
 }
+
