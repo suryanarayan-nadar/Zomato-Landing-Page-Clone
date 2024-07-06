@@ -28,60 +28,64 @@
     />
 
     <!-- Importing styles.css -->
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
 
-    <title>Zomato Landing Page Clone</title>
+    <title>Zomato Landing Page Clone </title>
   </head>
   <body>
-    <section class="hero__section">
+
+      <!-- This is for hero-section -->
+      <section class="hero__section">
         <header>
-            <nav class="navbar">
-                <a href="#">Get the App</a>
-                <div class="navbar__menu_container">
-                  <a href="#" class="link">Inventor Relations</a>
-                  <a href="#" class="link">Add Restaurant</a>
-                  <a href="#" class="link">Login</a>
-                  <a href="#" class="link">Sign Up</a>
-                  <a href="#" class="user_icon">
-                    <i class="fa-solid fa-user"></i>
-                  </a>
-                </div>
-            </nav>
+          <nav class="navbar">
+            <a href="#">Get the App</a>
+            <div class="navbar__menu_container">
+              <a href="#" class="link">Inventor Relations</a>
+              <a href="#" class="link">Add Restaurants</a>
+              <a href="#" class="link">Login</a>
+              <a href="#" class="link">Sign Up</a>
+              <a href="#" class="user_icon">
+                <i class="fa-solid fa-user"></i>
+              </a>
+            </div>
+          </nav>
         </header>
 
         <div class="hero__section_container">
-          <img src="./images/heroSectionLogo.png" alt="Zomato Logo" class="hero__section_logo" />
+          <img src="./images/heroSectionLogo.png" alt="Zomato Logo" class="hero__section_logo"/>
           <h1 class="hero__section_title">Discover the best food & drinks in Hampi-Hospet</h1>
           <div class="hero__section_input_container">
-            <input class="input_container_location" type="text" placeholder="Hampi-Hospet"/>
-            <input class="input_container_search" type="text" placeholder="Search for restaurants, cuisine or a dish"/>
+            <input class="input_container_location" type="text" placeholder="Hampi-Hospet" />
+            <input class="input_container_search" type="text" placeholder="Search for a restaurant, cuisine or a dish" />
           </div>
         </div>
-    </section>
 
-    <section class="container we__offer">
-      <div class="we__offer_card">
-        <img src="./images/item1.png" alt="card 1 img" />
-        <div class="we__offer_content">
-          <h2>Order Online</h2>
-          <p>Stay home and order to your doorstep</p>
-        </div>
-      </div>
+      </section>
 
-      <div class="we__offer_card">
-        <img src="./images/item2.png" alt="card 2 img" />
-        <div class="we__offer_content">
-          <h2>Dining</h2>
-          <p>Views the citys favourite dining view</p>
-        </div>
-      </div>
+      <!-- This is for cards zomato offer -->
+      <section class="container we__offer">
+          <div class="we__offer_card">
+              <img src="./images/item1.png" alt="card 1 img" />
+              <div class="we__offer_content">
+                <h2>Order Online</h2>
+                <p>Stay home and order to your doorstep</p>
+              </div>
+          </div>
 
-      <div class="we__offer_card">
-        <img src="./images/item3.png" alt="card 3 img" />
-        <div class="we__offer_content">
-          <h2>Nightlife and clubs</h2>
-          <p>Explore the citys top nightlife outlets</p>
+          <div class="we__offer_card">
+            <img src="./images/item2.png" alt="card 2 img" />
+            <div class="we__offer_content">
+              <h2>Dining</h2>
+              <p>View the citys favourite dining venue</p>
+            </div>
         </div>
+
+        <div class="we__offer_card">
+          <img src="./images/item3.png" alt="card 3 img" />
+          <div class="we__offer_content">
+            <h2>Nightlife and clubs</h2>
+            <p>Explore the citys top nightlife outlets</p>
+          </div>
       </div>
 
       <div class="we__offer_card">
@@ -90,7 +94,88 @@
           <h2>Order Online</h2>
           <p>Stay home and order to your doorstep</p>
         </div>
-      </div>
-    </section>
+    </div>
+
+
+      </section>
+
+      <!-- Thisis for collection section -->
+      <section class="container collections">
+          <h1>Collection</h1>
+          <div class="sub__heading_container">
+            <span>Explore curated lists of top restaurants, cafes, pubs in Hospet-Hampi based on trends</span>
+            <span>All collections in Hospet-Hampi</span>
+          </div>
+          <div class="collections_card_container">
+            <div class="card card1">
+            
+              <div class="content">
+                  <h4>Live Cricket Screening</h4>
+                  <span>56 Places</span>
+              </div>
+              <div class="overlay"></div>
+            </div>
+
+            <div class="card card2">
+              <div class="overlay"></div>
+              <div class="content">
+                  <h4>Malnad Special</h4>
+                  <span>12 Places</span>
+              </div>
+            </div>
+
+            <div class="card card3">
+              <div class="overlay"></div>
+              <div class="content">
+                  <h4>Newly opened Restaurants</h4>
+                  <span>36 Places</span>
+              </div>
+            </div>
+
+            <div class="card card4">
+              
+              <div class="content">
+                  <h4>Trending Pubs Near Me</h4>
+                  <span>16 Places</span>
+              </div>
+              <div class="overlay"></div>
+            </div>
+
+          </div>
+      </section>
+
+      <!-- This is for get the app section -->
+      <section class="container get__the_app">
+        <div class="semiContainer">
+            <div class="left">
+              <img src="./images/mobileBanner.png" alt="Mobile Banner" />
+            </div>
+            <div class="right">
+              <h1>Get the Zomato App</h1>
+              <p>We will send you a link, open it and download in your phone</p>
+              <div class="radio__button_container">
+                <div>
+                  <input type="radio" id="email" name="download_app"/>
+                  <label for="email" style="font-size: 14px;">Email</label>
+                </div>
+                <div>
+                  <input type="radio" id="phone" name="download_app"/>
+                  <label for="phone" style="font-size: 14px;">Phone</label>
+                </div>
+              </div>
+              <div class="input_container">
+                <input type="text" placeholder="Email"/>
+                <button>Share App Link</button>
+              </div>
+              <div class="download__app_container">
+                <h5>Download App From</h5>
+                <diV>
+                  <img src="./images/appleStore.png" alt="Apple Store" />
+                  <img src="./images/playStore.png" alt="Playe Store" />
+                </diV>
+              </div>
+            </div>
+        </div>
+      </section>
   </body>
 </html>
